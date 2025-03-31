@@ -1,0 +1,35 @@
+body {
+  height: 100vh;
+  width: 100vw; 
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: rgba(128, 128, 128, 0.237); */
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+.nav-items-container{
+  display: flex;
+  gap: 50px;
+  padding-inline: 20px;
+  list-style-type: none;
+  transform: translateY(35px);
+}
+
+#nav-items {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+}
+
+#insights-dropdown {
+  display: none;
+}
+
+li:hover #insights-dropdown {
+  display: block;
+}
