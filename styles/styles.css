@@ -1,0 +1,97 @@
+/*styles for all pages*/
+@font-face {
+  font-family: 'Modern';
+  src: url('../fonts/Modern.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Modern-Bold';
+  src: url('../fonts/Modern-Bold.otf') format('opentype');
+}
+
+body {
+  font-family: 'Modern';
+  height: 100vh;
+  width: 100vw; 
+  background-color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+.header-container {
+  font-size: x-large;
+  transform: translateY(40px);
+}
+
+.nav-items-container{
+  display: flex;
+  gap: 50px;
+  padding-inline: 20px;
+  list-style-type: none;
+  position: relative;
+  top: 150px;
+}
+
+#nav-items {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+}
+
+#insights-dropdown {
+  transform: translateX(-15%);
+  position: absolute;
+  opacity: 0;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  background-color: rgba(128, 128, 128, 0.542);
+  color: white;
+  transition: 0.3s ease;
+}
+
+#insights-dropdown a{
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+  transition: 0.3s ease;
+}
+
+#insights-dropdown a:hover{
+  background-color:rgb(210, 205, 205);
+  padding: 15px;
+}
+
+li:hover #insights-dropdown {
+  opacity: 1;
+}
+
+/*key insight 1 styling*/
+#insight1-title{
+  text-align: center;
+}
+
+.column-container {
+  display: flex;
+  gap: 50px;
+}
+
+.col2-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+}
+
+#insight2-img {
+  transform: rotate(90deg);
+}
+
+#insight1-img, #insight3-img, #insight4-img {
+  width: 100%;
+}
