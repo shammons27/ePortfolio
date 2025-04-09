@@ -22,8 +22,8 @@ body {
 }
 .container .card {
   position: relative;
-  width: 400px;
-  height: 500px;
+  width: 250px;
+  height: 350px;
   margin: 30px;
   overflow: hidden;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
