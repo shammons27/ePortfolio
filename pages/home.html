@@ -4,36 +4,36 @@
 
 <head>
     <title>Sarah Hammons ePortfolio</title>
-    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/home.css">
 </head>
 
 
-<body>
-    <div class="content">
-        <header class="header">
-            <div class="header-container">
-                <h1>Sarah Hammons</h1>
-                <h2><a id="nav-home" href="#">GLD ePortfolio</a></h2>
-            </div>
-            <nav class="navigation-bar">
-                <ul class="nav-items-container">
-                    <li><a id="nav-items" href="./about-me.html">About Me</a></li>
-                    <li>
-                        <div id="nav-items">Key Insights
-                            <div id="insights-dropdown">
-                                <a href="./key-insight-1.html">Key Insight 1</a>
-                                <a href="./key-insight-2.html">Key Insight 2</a>
-                                <a href="./key-insight-3.html">Key Insight 3</a>
-                            </div>
-                        </div>    
-                    </li>
-                    <li><a id="nav-items" href="./leadership.html">Leadership</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main class="main-content">
-        </main>
-        <footer class="main-footer"></footer>
+<body class="home-page">
+    <div class="background-container">
+      <video autoplay muted loop playsinline class="bg-vid">
+        <source src="../images/waves.mp4" type="video/mp4"/>
+      </video>
+      <div class="bg-overlay"></div>
     </div>
-</body>
+    <div class="content-container">
+      <nav class="home-nav-tabs fade-in">
+        <a href="#" class="home-tab active">Home</a>
+        <a href="./leadership.html" class="home-tab">Leadership</a>
+        <a href="./key-insight-1.html" class="home-tab">Key Insights</a>
+      </nav>
+      <div class="card fade-in">
+        <div class="card-text">
+          <div class="card-title">Sarah Hammons</div>
+          <div class="card-title-two">GLD ePortfolio</div>
+          <div class="card-desc">
+            Welcome to my journey in uniting my personal growth and academic passion with my 
+            leadership, research, and community outreach experiences to guide the 
+            new generation of students.
+          </div>
+        </div>
+        <img src="../images/me.jpg" class="card-img" alt="A picture of myself"/>
+      </div>
+      <a href="./about-me.html" class="abtme-btn fade-in">MORE ABOUT ME</a>
+    </div>
+  </body>
 </html>
