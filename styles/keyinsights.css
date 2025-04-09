@@ -11,7 +11,7 @@
   margin-right: 20px;
   margin-left: 20px;
   background: #c6cbcb;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .main-content {
@@ -56,6 +56,11 @@
 .tab.active {
   color: white;
   background: rgba(255, 255, 255, 0.15);
+}
+
+.hover {
+  color: rgb(111, 111, 111);
+  font-style: italic;
 }
 
 .container {
