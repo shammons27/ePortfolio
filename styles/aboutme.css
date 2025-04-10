@@ -54,17 +54,17 @@
 }
 
 .main-content {
-    max-width: 90%;
+  max-width: 90%;
 }
 
 .main-content h1 {
-    font-family: 'Modern-Bold';
-    font-size: 40px;
+  font-family: 'Modern-Bold';
+  font-size: 40px;
 }
 
 .main-content p {
-    font-family: sans-serif;
-    font-size: 17px;
+  font-family: sans-serif;
+  font-size: 17px;
 }
 
 /* Changing scroll bar colors: */
