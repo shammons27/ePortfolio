@@ -11,8 +11,6 @@
 .leadership-page {
   height: 100vh;
   width: 100vw;
-  margin-right: 20px;
-  margin-left: 20px;
   background-color: white;
   overflow-x: hidden;
 }
@@ -55,6 +53,7 @@
 
 .main-content {
   max-width: 90%;
+  margin: 0 auto;
 }
 
 .main-content h1 {
@@ -76,8 +75,27 @@
 }
 
 .main-content p {
-  font-family: sans-serif;
+  font-family: 'Segoe UI';
   font-size: 17px;
+}
+
+.section {
+  background-color: rgba(148, 154, 167, 0.122);
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.section h2 {
+  text-decoration: underline;
+}
+
+#solution-subtitle {
+  font-family: 'Modern-Bold';
+}
+
+.citations-section {
+  padding-bottom: 50px;
 }
 
 /* Changing scroll bar colors: */
@@ -113,3 +131,4 @@
   transform: translateY(20px);
   animation: fadeInUp 0.5s ease-out forwards;
 }
+

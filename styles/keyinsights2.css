@@ -60,7 +60,7 @@
 
 .main-content {
   max-width: 90%;
-  margin-left: 50px;
+  margin: 0 auto;
 }
 
 .main-content h1 {
@@ -113,12 +113,15 @@
   display: flex;
   align-items: flex-start;
 }
+
+.artifact2 {
+  margin-top: 70px;
+}
   
 .image-container {
   display: flex;
   flex-shrink: 0;
   flex-direction: row;
-  margin-left: 15px;
   gap: 10px;
 }
 
@@ -136,21 +139,30 @@
 
 #float-img-art2 {
   height: 350px;
+  margin-right: 20px;
 }
 
-.img-container-1 {
-    height: 300px;
-    margin: 0 auto;
+.artifact3_img-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .img-container {
-  height: 300px;
+  display: flex;
+  gap: 20px;
+  height: 550px;
   margin: 0 auto;
 }
   
 .img-container img {
   height: 100%;
 }
+
+.artifact3-section {
+  margin-top: 50px;
+}
+
 
 @keyframes fadeInUp {
   to {
@@ -184,4 +196,11 @@
 
 ::-webkit-scrollbar-track {
   background-color: #d4d4d4;
+}
+
+@media (max-width: 1200px) {
+  .image-container {
+    flex-direction: column;
+    gap: 50px;
+  }
 }
