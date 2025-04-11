@@ -74,6 +74,31 @@
   font-size: 17px;
 }
 
+.aboutme-image {
+  width: 300px;
+  height: 350px;
+  overflow: hidden; 
+  margin: 0 auto;
+}
+
+.aboutme-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.aboutme-sec2 {
+  margin-bottom: 100px;
+}
+
+.aboutme-sec2 h2{
+  font-family: 'Modern-Bold';
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+
 /* Changing scroll bar colors: */
 ::-webkit-scrollbar {
   width: 10px;
@@ -106,4 +131,19 @@
   opacity: 0;
   transform: translateY(20px);
   animation: fadeInUp 0.5s ease-out forwards;
+}
+
+@media (max-width: 900px) {
+  .aboutme-image {
+    width: 200px;
+    height: 250px
+  }
+
+  .main-content h1 {
+    font-size: 30px;
+  }
+
+  .aboutme-sec2 h2 {
+    font-size: 25px;
+  }
 }
