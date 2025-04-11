@@ -53,12 +53,14 @@
 }
 
 .main-content {
+  background-color: rgba(100, 180, 255, 0.131);
+  border-radius: 10px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   max-width: 90%;
   margin: 0 auto;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  margin-top: 50px;
 }
 
 .main-content h1 {
@@ -70,20 +72,6 @@
 .main-content p {
   font-family: 'Segoe UI';
   font-size: 17px;
-}
-
-.aboutme-img {
-  background-color: rgba(167, 143, 169, 0.44);
-  border-radius: 20px;
-  padding: 20px;
-  height: 200px;
-  margin: 0 auto;
-}
-
-.aboutme-img img {
-  height: 100%;
-  width: auto;
-  border-radius: 20px;
 }
 
 /* Changing scroll bar colors: */
