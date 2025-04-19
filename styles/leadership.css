@@ -88,9 +88,12 @@
   background-color: rgba(84, 94, 104, 0.058);
 }
 
-
 .citations-section {
   padding-bottom: 50px;
+}
+
+.bold-italic {
+  font-style: italic;
 }
 
 /* Changing scroll bar colors: */
