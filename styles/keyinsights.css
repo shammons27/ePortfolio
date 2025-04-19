@@ -10,7 +10,7 @@
   width: 100vw;
   margin-right: 20px;
   margin-left: 20px;
-  background-color: white;
+  background-color: rgba(129, 152, 177, 0.34);
   overflow-y: auto;
   overflow-x: hidden;
 }
@@ -45,9 +45,9 @@
 .tab {
   font-family: 'Segoe UI', sans-serif;
   padding: 15px 20px;
-  font-size: 15px;
+  font-size: 12px;
   font-weight: 600;
-  color: rgb(88, 88, 88);
+  color: rgb(57, 57, 57);
   letter-spacing: 1px;
   text-decoration: none;
   transition: 0.3s;
